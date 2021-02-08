@@ -11,7 +11,10 @@
 }
 
 body {
-    background: #1e272e;
+    background: url(/imgs/amy-leigh-barnard-SByb8Ch9XcQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     display: flex;
     
     flex-direction: column;
