@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: #1e272e;
+    display: flex;
+    
+    flex-direction: column;
+}
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-self: inherit;
+    
+}
+
+
+
+h2 {
+    margin: 0 0 1rem 2rem ;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+li 
+{
+    list-style: none;
+    margin: 0 0 1rem 4rem;
+    font-size: 2rem;
+}
+
+input {
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+i {
+    margin-left: 1rem;
+}
+
+.banner {
+    width: 60vh;
+    margin: 1rem 1rem;
+    background: #05c46b;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    align-items: flex-start;
+    
+}
+
+.attributes {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: inherit;
+}
+
+.creataceous {
+    width: 95%;
+    margin: 2rem;
+    border-radius: 1rem;
+    background: #fbc531;
+}
+
+.primal {
+    width: 95%;
+    margin: 2rem;
+    border-radius: 1rem;
+    background: #ff9f1a;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rivals {
+    width: 95%;
+    margin: 2rem;
+    border-radius: 1rem;
+    background: #c23616;
+}
+
+.world {
+    width: 95%;
+    margin: 2rem;
+    border-radius: 1rem;
+    background: #0abde3;
+}
+
+
