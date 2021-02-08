@@ -83,14 +83,14 @@ i {
 }
 
 .creataceous {
-    width: 95%;
+    width: 50vw;
     margin: 2rem;
     border-radius: 1rem;
     background: #fbc531;
 }
 
 .primal {
-    width: 95%;
+    width: 50vw;
     margin: 2rem;
     border-radius: 1rem;
     background: #ff9f1a;
@@ -100,17 +100,82 @@ i {
 }
 
 .rivals {
-    width: 95%;
+    width: 50vw;
     margin: 2rem;
     border-radius: 1rem;
     background: #c23616;
 }
 
 .world {
-    width: 95%;
+    width: 50vw;
     margin: 2rem;
     border-radius: 1rem;
     background: #0abde3;
 }
 
 
+/* Media Queries **********************************************************************************************/
+
+
+@media screen and (min-width: 1400px){
+    .creataceous,
+    .primal,
+    .rivals,
+    .world {
+        width: 20vw;
+    }
+}
+
+
+@media screen and (min-width: 1200px){
+    .creataceous,
+    .primal,
+    .rivals,
+    .world {
+        width: 35vw;
+    }
+}
+
+@media screen and (max-width: 850px){
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    li {
+        font-size: 1.5rem;
+    }
+   
+}
+
+
+@media screen and (max-width: 750px) {
+    .creataceous,
+    .primal,
+    .rivals,
+    .world {
+        width: 55vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    li {
+        font-size: 1rem;
+    }
+
+    .banner {
+        width: 90vw;
+    }
+   
+}
