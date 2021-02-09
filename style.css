@@ -62,7 +62,7 @@ i {
 }
 
 .banner {
-    width: 60vh;
+    width: 90vw;
     margin: 1rem 1rem;
     background: #05c46b;
     border-radius: 1rem;
@@ -70,16 +70,17 @@ i {
     flex-direction: column;
     justify-self: center;
     align-self: center;
-    align-items: flex-start;
+    align-items:baseline;
     
 }
 
 .attributes {
-    height: 15vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
-    align-items: inherit;
+    align-items: center;
 }
 
 .creataceous {
