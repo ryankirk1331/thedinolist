@@ -28,13 +28,25 @@ section {
 
 h1 {
     text-transform: uppercase;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-size: 4rem;
     color: black;
     display: flex;
     justify-content: center;
     align-self: inherit;
     
+}
+
+.header {
+    background: #8c7ae6;
+    width: 70vw;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 
@@ -61,29 +73,7 @@ i {
     margin-left: 1rem;
 }
 
-.banner {
-    width: 90vw;
-    margin: 1rem 1rem;
-    background: #05c46b;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    align-self: center;
-    align-items:baseline;
-    
-}
-
-.attributes {
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.creataceous {
+ .creataceous {
     width: 50vw;
     margin: 2rem;
     border-radius: 1rem;
@@ -115,6 +105,14 @@ i {
 }
 
 
+.banner {
+    width: 50vw;
+    margin: 2rem;
+    border-radius: 1rem;
+    background: #6ab04c;
+}
+
+
 /* Media Queries **********************************************************************************************/
 
 
@@ -122,9 +120,12 @@ i {
     .creataceous,
     .primal,
     .rivals,
-    .world {
+    .world,
+    .banner {
         width: 20vw;
     }
+
+    
 }
 
 
@@ -132,14 +133,20 @@ i {
     .creataceous,
     .primal,
     .rivals,
-    .world {
+    .world,
+    .banner {
         width: 35vw;
     }
+
+    .header {
+        width: 40vw;
+    }
+    
 }
 
 @media screen and (max-width: 850px){
     h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     h2 {
@@ -157,14 +164,17 @@ i {
     .creataceous,
     .primal,
     .rivals,
-    .world {
+    .world,
+    .banner {
         width: 55vw;
     }
+
+   
 }
 
 @media screen and (max-width: 500px){
     h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     h2 {
@@ -175,8 +185,5 @@ i {
         font-size: 1rem;
     }
 
-    .banner {
-        width: 90vw;
-    }
    
 }
